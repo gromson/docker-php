@@ -228,6 +228,7 @@ RUN \
 	pecl install mongodb \
 	&& pecl install https://pecl.php.net/get/dbase-7.0.0beta1.tgz \
 	&& pecl install redis	
+	&& pecl install xdebug
 
 COPY docker-php-ext-* docker-php-entrypoint /usr/local/bin/
 
