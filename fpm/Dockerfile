@@ -161,7 +161,6 @@ RUN set -xe \
 		--enable-zip \
 		--enable-soap \
 		--enable-calendar \
-		--enable-debug \
 		--with-curl \
 		--with-libedit \
 		--with-openssl \
